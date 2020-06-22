@@ -19,6 +19,7 @@ int main(void)
 	 sprintf(buffer + 2, "Integer: %d\n", i);
 	 sprintf(buffer + 3, "Real: %f\n", fp);
 	sprintf(buffer, "String: %s\n Character: %c\n Ineger: %d\n Real: %f\n", s, c, i, fp);*/
+
 	mqtt_save(temp, humi, range, weight, angle, height, wind);
 
 	//printf( "output:\n%s\n character count = %d\n", t_json, json_len);
